@@ -4,7 +4,7 @@ A proof of concept AddOn to showcase using [Haxe][haxe] to create AddOns for WoW
 
 ## Acknowledgements
 
-The wrapper code in `Wrapper.hx` was figured out by `Vendethiel` at the WoW AddOns Discord.
+The wrapper code in `Wrapper.hx` was figured out by @vendethiel at the WoW AddOns Discord.
 
 ## Building
 
