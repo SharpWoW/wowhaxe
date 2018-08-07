@@ -1,0 +1,7 @@
+## Interface: 80000
+## Version: 1.0.0
+## Title: WowHaxe
+## Notes: A proof-of-concept AddOn written in Haxe.
+## Author: Sharparam & Vendethiel
+
+bin\main.lua

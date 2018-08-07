@@ -1,0 +1,4 @@
+-cp src
+-D lua_ver=5.1
+-lua bin/main.lua
+-main wowhaxe.Main
