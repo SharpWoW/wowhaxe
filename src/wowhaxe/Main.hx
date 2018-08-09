@@ -1,5 +1,8 @@
 package wowhaxe;
 
+import haxe.extern.Rest;
+
+import wowhaxe.Chat.DEFAULT_CHAT_FRAME;
 import wowhaxe.Global.CreateFrame;
 import wowhaxe.Global.print;
 import wowhaxe.Wrapper.wrap;
@@ -21,7 +24,8 @@ class Main {
                     return;
 
                 case "ZONE_CHANGED_NEW_AREA":
-                    print("You entered a new area");
+                    var info = ChatTypeInfo.get("RAID");
+                    DEFAULT_CHAT_FRAME.AddMessage("You changed zone", null, null, null, info.id);
                     return;
             }
         }));

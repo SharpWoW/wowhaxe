@@ -3,7 +3,7 @@ package wowhaxe;
 import haxe.extern.Rest;
 
 @:native("Frame")
-extern class Frame extends Region {
+extern class Frame extends VisibleRegion implements ScriptObject {
     public function RegisterEvent(event: String): Void;
     public function RegisterUnitEvent(event: String, units: Rest<String>): Void;
     public function RegisterAllEvents(): Void;

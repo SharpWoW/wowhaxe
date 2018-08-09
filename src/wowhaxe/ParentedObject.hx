@@ -1,6 +1,6 @@
 package wowhaxe;
 
-interface UIObject {
+extern class ParentedObject implements UIObject {
     public function GetParent(): UIObject;
 
     public function GetAlpha(): Float;

@@ -2,30 +2,9 @@ package wowhaxe;
 
 import haxe.extern.EitherType;
 
-@:multiReturn
-extern class Point {
-    var point: String;
-    var relativeTo: Region;
-    var relativePoint: String;
-    var xOfs: Float;
-    var yOfs: Float;
-}
+import wowhaxe.data.*;
 
-@:multiReturn
-extern class Position {
-    var x: Float;
-    var y: Float;
-}
-
-@:multiReturn
-extern class Rectangle {
-    var left: Float;
-    var bottom: Float;
-    var width: Float;
-    var height: Float;
-}
-
-extern class Region extends UIObject {
+extern class Region extends ParentedObject {
     public function SetParent(parent: EitherType<String, Region>): Void;
 
     public function GetNumPoints(): Int;
