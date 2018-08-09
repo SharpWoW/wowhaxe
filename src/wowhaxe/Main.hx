@@ -1,7 +1,5 @@
 package wowhaxe;
 
-import haxe.extern.Rest;
-
 import wowhaxe.Chat.DEFAULT_CHAT_FRAME;
 import wowhaxe.Global.CreateFrame;
 import wowhaxe.Global.print;
