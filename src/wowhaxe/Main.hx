@@ -30,6 +30,10 @@ class Main {
         frame.RegisterEvent("ADDON_LOADED");
         frame.RegisterEvent("PLAYER_ENTERING_WORLD");
         frame.RegisterEvent("ZONE_CHANGED_NEW_AREA");
+
+        SlashCommands.register("WOWHAXE", ["wowhaxe"], function(msg, editBox) {
+            trace(msg);
+        });
     }
 
     private static function addonLoaded(name: String) {
